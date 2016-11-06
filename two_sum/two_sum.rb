@@ -1,13 +1,13 @@
 class TwoSum
-  attr_reader :array, :target, :hash
+  attr_reader :array, :target
 
+  # param {Array[]}, numbers
+  # param {Integer}, target number
   def initialize(array, target)
     @array  = array
     @target = target
   end
 
-  # param {Array[]}, numbers
-  # param {Integer}, target number
   # return {Array} of zero based indices
   def run
     hash = {}
